@@ -1,0 +1,41 @@
+/* IntroSection.css */
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .intro-text {
+width: 50%;
+    text-align: left;
+  }
+  
+  .intro-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text p {
+    font-size: 1.2rem;
+  }
+  
+  .intro-image {
+    width: 50%;
+  }
+  .intro-image img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+   
+
+  }
+  @media (max-width: 768px) and (min-width: 8px) {
+
+    .intro-section{
+        display: flex;
+        flex-direction: column;
+    }
+  }
